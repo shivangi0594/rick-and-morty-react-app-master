@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import FilterPanel from "./Components/FilterPanel/FilterPanel";
 import Spinner from "./Components/Spinner/Spinner";
 import Pagination from "./Components/Pagination/Pagination";
-import Header from "./Components/layout/Header";
 import { getCharactersList } from "./api";
 import { APIKeysObj } from "./constants";
 import "./App.scss";
