@@ -191,7 +191,6 @@ class App extends Component {
         return (
             <Router>
                 <div className="App">
-                    {/*<Header />*/}
                     <Route
                         exact
                         path="/rick-and-morty-react-app/"
