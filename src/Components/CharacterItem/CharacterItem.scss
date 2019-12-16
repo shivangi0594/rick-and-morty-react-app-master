@@ -1,0 +1,43 @@
+.character-item {
+    //text-align: center;
+    flex: 0 1 33.33%;
+    padding: 10px;
+    background-color: black;
+}
+.character_infoType{
+    text-align: left;
+    color: #c8d6e5;
+}
+.character-panel{
+    background-color: darkslategray;
+}
+.character-item__title {
+    font-size: 1.5em;
+    margin-bottom: 1.5rem;
+    color: #c8d6e5;
+}
+
+.item-thumb-wrap {
+    width: 128px;
+    height: 128px;
+    margin: 0 auto 1em;
+    overflow: hidden;
+}
+
+.thumb-male .item-thumb-image {
+    border: 2px solid var(--section-color);
+}
+
+.thumb-female .item-thumb-image {
+    border: 2px solid var(--custom-red);
+}
+.character-item_info{
+    color: var(--customYellow);
+    text-align: right !important;
+}
+.character-item_info a{
+    color: var(--customYellow);
+}
+.character-item_details{
+    padding: 10px;
+}
